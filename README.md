@@ -25,7 +25,7 @@ There are 5 datasets used in this project (provided by the teaching staff):
 4. character.metadata.tsv.gz
 5. tvtropes.clusters.txt
 
-From dataset number 2, an additional dataset is created in the Jupyter Notebook "BLABLA" (matthias).
+From dataset number 2, an additional dataset is created in the Jupyter Notebook "BLABLA" (Mathias).
 Apart from those, there are no additional datasets.
 
 ### Methods
@@ -39,9 +39,37 @@ In this way, we can deal with the fact that the absolute number of actors and ac
 
 T-tests will be performed (Q1.1-Q1.3) across different periods (to be defined), to assess whether there is significant statistical differences in women participation over time.
 
+For Q1.4, we will perform a matched observational study, matching an actor and actress with similar features (age at first movie, age at last movie, carrier length, most frequent movie country, and most frequent movie genre if applicable). A dataset for treated will contain only men, and the non-treated will contain women. The output of the treatment is the number of movies done during the entire carrer.  
 
+For Q1.5, we will identify if there are predictors for the female share in a given movie, such as movie genre, box office revenue, runtime, country, etc. This will be done using a regression analysis..
 
 ### Proposed timeline
+W7-W9 (Oct 28 - Nov 18):  
+- Define project scope: clearly define the project idea and what are the questions to be answered  
+- Datasets cleaning, initial analysis and handling   
+- Write the README: develop what is the story we want to tell with our data  
+- Have all main necessary dataframes used for the analysis  
+
+W12 (Dec 2 - Dec 8):  
+- Start analyses with the defined methods  
+- Share results within the group  
+- Critical review of approach / results  
+
+W13 (Dec 9 - Dec 16):  
+- Re-do analysis if necessary (based on critical review)  
+- Create most important graphs for the datastory  
+- Outline for datastory  
+
+W14 (Dec 17 - Dec 23):  
+- Datastory  
+- Last modifications: is the code well explained? Representation of datastory  
 
 
 ### Organization within the team
+Balthazar: part 1 (research questions and methods definition, creation of necessary dataframes for the analysis), handling of dataset 3 + datastory part 1
+Lara: part 1 (research questions and methods definition, creation of necessary dataframes for the analysis), handling of dataset 4 + datastory part 1
+Mathias:
+Romana:
+
+Moreover, we have done several weekly meetings with all the group members, to decide what analysis to perform and methods to use for both parts 1 and 2. The above organization describes the "hands-on" tasks that were performed by whom.
+
