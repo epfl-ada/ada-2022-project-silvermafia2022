@@ -10,10 +10,10 @@ This inequality will be explored through quantitative and qualitative analysis o
 ### Research questions
 Part 1: Gender inequality in the movie industry  
 1.1 What is the global trend of number of women and men cast in movies?  
-1.2. What is the trend in the top 10 most movie-producing countries?  
-1.3. What is the trend for different movie genres?  
-1.4. For similar careers, do actors participate in more movies than actresses?  
-1.5. What are the predictors of the share of women and men cast in a movie?
+1.2 What is the trend in the top 10 most movie-producing countries?  
+1.3 What is the trend for different movie genres?  
+1.4 For similar careers, do actors participate in more movies than actresses?  
+1.5 What are the predictors of the share of women and men cast in a movie?
 
 Part 2: Steoreotypes and representation of different genders in the movie industry  
 2.1 What are the stereotypes according to the tv tropes?  
@@ -50,11 +50,11 @@ For Q1.4, perform a matched observational study, matching an actor and actress w
 
 For Q1.5, identify if there are predictors for female share in a given movie, such as movie genre, box office revenue, runtime, country, etc. This will be done using a regression analysis.
 
-Part2: In contrast to part 1, we analyze the difference of the role of female and male characters in terms of how they are represented. Thus, we are interested in how characters of different genders are described and what words are associated with them. Will the clichés come true?
+Part2: In contrast to part 1, we analyze the difference of the role of female and male characters in terms of how they are represented. Thus, we are interested in how characters of different genders are described and what words are associated with them.
 
-For Q2.1, the tv tropes dataset (number 5) is used. Typical character types are identified from .... The sex is attributed to each trope depending on the sex of the actor who played this role. By analyzing what words are used for tropes that describe female and male characters respectively, we will create word clouds which show the most abundant words for each sex. Furthermore, the librabry Empath is used to categorize the words into lexical fields. Consequently, we can compare the two gender groups because they are now classified by the same categories. For example, pearson’s correlation coefficient gives the strength of the linear relation between the two variables.
+For Q2.1, the tv tropes dataset (number 5) is used, which contains 72 character types along with 501 instances. The sex is attributed to each TV trope depending on the sex of the actor who played this role. By analyzing what words are used for TV tropes that describe female and male characters respectively, we will create word clouds which show the most abundant words for each gender. Furthermore, the librabry Empath is used to categorize the words into lexical fields. Consequently, we can compare the two gender groups because they are now classified by the same categories. For example, pearson’s correlation coefficient gives the strength of the linear relation between the two variables.
 
-For Q2.2 and Q2.3, we make use of the newly created dataset 6, which conains all words associated with a figure from the summary of the movies. For Q2.2, we will use the same approach as described for Q2.1 but this time with the new and much larger dataset 7. This allows us to examine, if the representation of genders in the tv tropes correspond to the representation of characters in the summaries of the movies. The same methodology is also applied for Q2.3, but in addition, the words for every gender is divided into three to four time periods depending on the release date of the movie. This allows us to observe the change in lexical categories over time for both female and male characters. For this subquestion however, we will go a step further and make a principle compnent analysis (PCA) using the categories created by Empath. By visualizing our different groups (male/female + different time periods) we expect to find a separation between the words of male and female characters. Furthermore, our expectation is to see more variation of the lexical field of female characters between different periods than for male characters.
+For Q2.2 and Q2.3, we make use of the newly created dataset 6, which conains all words associated with a figure from the summary of the movies. For Q2.2, we will use the same approach as described for Q2.1 but this time with the more exhaustive dataset. The same methodology is also applied for Q2.3, but in addition, the words for every gender is divided into three to four time periods depending on the release date of the movie. This allows us to observe the change in lexical categories over time for both female and male characters. For this subquestion however, we will go a step further and make a principle compnent analysis (PCA) using the categories created by Empath. By visualizing our different groups (male/female + different time periods) we expect to find a separation between the words of male and female characters. Furthermore, our expectation is to see more variation of the lexical field of female characters between different periods than for male characters.
 
 
 ### Proposed timeline
