@@ -30,7 +30,7 @@ The 5 datasets used are:
 4. character.metadata.tsv.gz
 5. tvtropes.clusters.txt
 
-6. From dataset number 2, an additional dataset is created in the Jupyter Notebook "BLABLA" (Mathias)  
+6. From dataset number 2, an additional dataset is created in a secondary Jupyter Notebook. For each sentence of a summary, the words/lexic, is associated to the characters implied in the sentence. Thus, the dataframe contains each characters of each summary with their associated words.
 7. An additional dataset is also retrieved from Wikidata using 'sparqlwrapper' in Python. It corresponds to the freebase ethnicity ID and it's corresponding ethnicity  
 
 
@@ -54,7 +54,7 @@ Part2: In contrast to part 1, we analyze the difference of the role of female an
 
 For Q2.1, the tv tropes dataset (number 5) is used. Typical character types are identified from .... The sex is attributed to each trope depending on the sex of the actor who played this role. By analyzing what words are used for tropes that describe female and male characters respectively, we will create word clouds which show the most abundant words for each sex. Furthermore, the librabry Empath is used to categorize the words into lexical fields. Consequently, we can compare the two gender groups because they are now classified by the same categories. For example, pearson’s correlation coefficient gives the strength of the linear relation between the two variables.
 
-For Q2.2 and Q2.3, we make use of the newly created dataset 7, which conains all words associated with a figure from the summary of the movies. For Q2.2, we will use the same approach as described for Q2.1 but this time with the new and much larger dataset 7. This allows us to examine, if the representation of genders in the tv tropes correspond to the representation of characters in the summaries of the movies. The same methodology is also applied for Q2.3, but in addition, the words for every gender is divided into three to four time periods depending on the release date of the movie. This allows us to observe the change in lexical categories over time for both female and male characters. For this subquestion however, we will go a step further and make a principle compnent analysis (PCA) using the categories created by Empath. By visualizing our different groups (male/female + different time periods) we expect to find a separation between the words of male and female characters. Furthermore, our expectation is to see more variation of the lexical field of female characters between different periods than for male characters.
+For Q2.2 and Q2.3, we make use of the newly created dataset 6, which conains all words associated with a figure from the summary of the movies. For Q2.2, we will use the same approach as described for Q2.1 but this time with the new and much larger dataset 7. This allows us to examine, if the representation of genders in the tv tropes correspond to the representation of characters in the summaries of the movies. The same methodology is also applied for Q2.3, but in addition, the words for every gender is divided into three to four time periods depending on the release date of the movie. This allows us to observe the change in lexical categories over time for both female and male characters. For this subquestion however, we will go a step further and make a principle compnent analysis (PCA) using the categories created by Empath. By visualizing our different groups (male/female + different time periods) we expect to find a separation between the words of male and female characters. Furthermore, our expectation is to see more variation of the lexical field of female characters between different periods than for male characters.
 
 
 ### Proposed timeline
@@ -81,11 +81,12 @@ W14 (Dec 17-Dec 23):
 
 ### Organization within the team
 Balthazar and Lara: handling of dataset 3/4, research questions, methods definition, creation of necessary dataframes for the analysis and datastory (all for part 1)  
-Mathias: part 2 (extraction of all words associated to a movie character and creation of dataset 7), datastory part 2  
+Mathias: part 2 (extraction of all words associated to a movie character and creation of dataset 6), datastory part 2  
 Romana: part 2 (analysis of the words, representation in word clouds/Empath categories/PCA), handling of dataset 5 + datastory part2  
 
 Moreover, we have done several weekly meetings with all the group members, to decide what analysis to perform and methods to use for both parts 1 and 2. The above organization describes the "hands-on" tasks that were performed by whom.
 
 ### References
 Bazzini, D. G., McIntosh, W. D., Smith, S. M., Cook, S., & Harris, C. (1997). The aging woman in popular film: Underrepresented, unattractive, unfriendly, and unintelligent. Sex Roles, 36(7–8), 531–543. https://doi.org/10.1007/BF02766689
+
 
