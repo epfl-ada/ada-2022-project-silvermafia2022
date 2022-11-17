@@ -30,8 +30,11 @@ The 5 datasets used are:
 4. character.metadata.tsv.gz
 5. tvtropes.clusters.txt
 
-From dataset number 2, an additional dataset is created in the Jupyter Notebook "BLABLA" (Mathias).
-Apart from those, there are no additional datasets.
+6. From dataset number 2, an additional dataset is created in the Jupyter Notebook "BLABLA" (Mathias)  
+7. An additional dataset is also retrieved from Wikidata using 'sparqlwrapper' in Python. It corresponds to the freebase ethnicity ID and it's corresponding ethnicity  
+
+
+
 
 ### Methods
 
