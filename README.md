@@ -30,7 +30,7 @@ The 5 datasets used are:
 4. character.metadata.tsv.gz
 5. tvtropes.clusters.txt
 
-6. From dataset number 2, an additional dataset (summary.pkl) is created in a secondary Jupyter Notebook. For each sentence of a summary, the words/lexic, is associated to the characters implied in the sentence. Thus, the dataframe contains each characters of each summary with their associated words.
+6. From dataset number 2, an additional dataset (summary.pkl) is created in a secondary Jupyter Notebook (summaries_treatment.ipynb). For each sentence of a summary, the words/lexic, is associated to the characters implied in the sentence. Thus, the dataframe contains each characters of each summary with their associated words.
 7. An additional dataset is also retrieved from Wikidata using 'sparqlwrapper' in Python. It corresponds to the freebase ethnicity ID and it's corresponding ethnicity  
 
 
