@@ -4,7 +4,7 @@ ada-2022-project-silvermafia2022 created by GitHub Classroom
 ## The role of women in the film industry - what is behind the prejudices?
 ### Abstract
 
-In recent years, the US movie industry has often been criticised in the media for its lack of female representation. As stated in (Bazzini et al., 1997): "Popular media images are reflections of a culture's attitudes, beliefs, and standards, as well as projections of desired realities [...] To the extent that consumers digest such material as truth, rather than fiction, the depictions laid forth by the media can be influential in the propagation and maintenance of stereotypes". This lack of women representations hence has a large impact on our society reinforcing the gender inequality of men doing great things (superhero, pilot, intelligent detective, etc...) and women being of secondary importance.  
+In recent years, the US movie industry has often been criticised in the media for its lack of female representation. This lack of women representations has a large impact on our society, reinforcing the gender inequality of men doing great things (superhero, pilot, intelligent detective, scientist), and women being of secondary importance. As stated in (Bazzini et al., 1997): "Popular media images are reflections of a culture's attitudes, beliefs, and standards, as well as projections of desired realities [...] To the extent that consumers digest such material as truth, rather than fiction, the depictions laid forth by the media can be influential in the propagation and maintenance of stereotypes". 
 This inequality will be explored through quantitative and qualitative analysis of movie data throughout various countries, genres, etc.
 
 ### Research questions
@@ -31,9 +31,7 @@ The 5 datasets used are:
 5. tvtropes.clusters.txt
 
 6. From dataset number 2, an additional dataset (summary.pkl) is created in a secondary Jupyter Notebook (summaries_treatment.ipynb). For each sentence of a summary, the words/lexic, is associated to the characters implied in the sentence. Thus, the dataframe contains each characters of each summary with their associated words. (WORK IN PROGRESS)
-7. An additional dataset is also retrieved from Wikidata using 'sparqlwrapper' in Python. It corresponds to the freebase ethnicity ID and it's corresponding ethnicity  
-
-
+7. An additional dataset is also retrieved from Wikidata using 'sparqlwrapper' in Python. It corresponds to the freebase ethnicity ID and it's corresponding ethnicity.  
 
 
 ### Methods
@@ -54,7 +52,7 @@ Part2: In contrast to part 1, we analyze the difference of the role of female an
 
 For Q2.1, the tv tropes dataset (number 5) is used, which contains 72 character types along with 501 instances. The sex is attributed to each TV trope depending on the sex of the actor who played this role. By analyzing what words are used for TV tropes that describe female and male characters respectively, we will create word clouds which show the most abundant words for each gender. Furthermore, the librabry Empath is used to categorize the words into lexical fields. Consequently, we can compare the two gender groups because they are now classified by the same categories. For example, pearson’s correlation coefficient gives the strength of the linear relation between the two variables.
 
-For Q2.2 and Q2.3, we make use of the newly created dataset 6, which conains all words associated with a figure from the summary of the movies. For Q2.2, we will use the approach described for Q2.1 but this time with the more exhaustive dataset. The same methodology is also applied for Q2.3, but in addition, the words for every gender is divided into three to four time periods depending on the release date of the movie. This allows us to observe the change in lexical categories over time for both female and male characters. For this subquestion however, we will go a step further and make a principle compnent analysis (PCA) using the categories created by Empath. By visualizing our different groups (male/female + different time periods) we expect to find a separation between the words of male and female characters. Furthermore, our expectation is to see more variation of the lexical field of female characters between different periods than for male characters.
+For Q2.2 and Q2.3, we make use of the newly created dataset 6, which conains all words associated with a figure from the summary of the movies. For Q2.2, we will use the approach described for Q2.1 but this time with the more exhaustive dataset. The same methodology is also applied for Q2.3, but in addition, the words for every gender is divided into three to four time periods depending on the release date of the movie. This allows us to observe the change in lexical categories over time for both female and male characters. For this subquestion however, we will go a step further and make a principle compnent analysis (PCA) using the categories created by Empath. By visualizing our different groups (male/female + different time periods) we expect to find a separation between the words of male and female characters. Furthermore, our expectation is to see more variation of the lexical field of female characters between different periods than for male characters.  
 
 
 ### Proposed timeline
