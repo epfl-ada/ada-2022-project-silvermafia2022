@@ -46,7 +46,7 @@ This is computed for all movies (Q1.1), years (Q1.1), countries (Q1.2), and movi
 
 T-tests will be performed (Q1.1-Q1.3) across different periods (t.b.d), to assess whether there is significant statistical differences in women participation over time.
 
-For Q1.4, perform a matched observational study, matching an actor and actress with similar features (age at first/last movie, carrier length, etc.). A dataset for control will contain only men, and tretment, only women. The output is the number of movies done during the entire carrer.   
+For Q1.4, perform a matched observational study, matching an actor and actress with similar features (age at first/last movie, carrier length, etc.). A dataset for control will contain only men, and treatment, only women. The output is the number of movies done during the entire carrer.   
 
 For Q1.5, identify if there are predictors for female share in a given movie, such as movie genre, box office revenue, runtime, country, etc. This will be done using a regression analysis.
 
