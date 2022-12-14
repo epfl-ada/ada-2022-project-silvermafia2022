@@ -10,7 +10,7 @@ This inequality will be explored through quantitative and qualitative analysis o
 ### Research questions
 Part 1: Gender inequality in the movie industry  
 1.1 What is the global trend of number of women and men cast in movies?  
-1.2 What is the trend in the top 10 most movie-producing countries?  
+1.2 What is the trend in some selected movie-producing countries?  
 1.3 What is the trend for different movie genres?  
 1.4 For similar careers, do actors participate in more movies than actresses?  
 1.5 What are the predictors of the share of women and men cast in a movie?
