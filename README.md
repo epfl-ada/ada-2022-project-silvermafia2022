@@ -4,6 +4,8 @@ ada-2022-project-silvermafia2022 created by GitHub Classroom
 ## The role of women in the film industry - what is behind the prejudices?
 ### Abstract
 
+Visit our datastory  [here](https://romana1234.github.io/ada-template-website/Intro)
+
 In recent years, the US movie industry has often been criticised in the media for its lack of female representation. This lack of women representations has a large impact on our society, reinforcing the gender inequality of men doing great things (superhero, pilot, intelligent detective, scientist), and women being of secondary importance. As stated in (Bazzini et al., 1997): "Popular media images are reflections of a culture's attitudes, beliefs, and standards, as well as projections of desired realities [...] To the extent that consumers digest such material as truth, rather than fiction, the depictions laid forth by the media can be influential in the propagation and maintenance of stereotypes". 
 This inequality will be explored through quantitative and qualitative analysis of movie data throughout various countries, genres, etc.
 
